@@ -1,0 +1,33 @@
+/* borderless-simple v1.0.0 */
+
+.mapjs-node{
+  border: none !important;
+  font-size: 12px;
+  box-shadow: none !important;
+  margin: 0px;
+  background: white;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  #font-weight:normal;
+}
+.mapjs-node[mapjs-level="1"]{
+  background: white;
+  border: 2px solid #0099CC !important;
+}
+.mapjs-node.selected {
+  text-decoration: underline;
+}
+.mapjs-node.activated {
+  text-decoration: underline;
+}
+.mapjs-node a.mapjs-hyperlink {
+  background-size: 65%;
+  right: -1.5em;
+  bottom: -1em;
+}
+.mapjs-node a.mapjs-attachment {
+  background-size: 65%;
+  top: -5px;
+  right: -10px;
+}
